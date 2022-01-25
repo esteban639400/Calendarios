@@ -1,0 +1,90 @@
+body{
+    font-family: sans-serif;
+    background-color: skyblue;
+}
+section{
+    background-color: rgb(250, 240, 214);
+    width: 50%;
+    border: solid 1px black;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+    
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+   
+   border-collapse: collapse;
+}
+table#uno{
+    position: relative;
+    top: 5px;
+ 
+    width: 350px;
+ 
+}
+
+table#uno caption{
+    font-weight: bolder;
+    font-style:oblique;
+    font-size: 16px;
+    letter-spacing: 4px;
+}
+table#uno thead{
+    font-size: 15px;
+ 
+}
+table#uno td,th{
+    text-align: center;
+    
+}
+table#uno tr{
+    border-bottom: rgba(128, 128, 128, 0.247) 1px solid;
+}
+
+table#dos caption{
+    text-align: right;
+    font-weight: bold;
+}
+table#dos{
+    width: 300px;
+    position: relative;
+    top: 5px;
+}
+table#dos td, table#dos th{
+    text-align: right;
+    border-right:  rgba(128, 128, 128, 0.247) 1px solid;
+    border-left:  rgba(128, 128, 128, 0.247) 1px solid;
+}
+table#dos td{
+    font-size: 25px;
+    
+}
+table#tres{
+    position: relative;
+    top: 10px;
+    
+}
+section#tres{
+    padding-bottom: 20px;
+}
+table#tres caption{
+    font-variant: small-caps;
+    text-align: left;
+    letter-spacing: 10px;
+}
+table#tres caption::first-letter{
+    text-transform: uppercase;
+}
+
+table#tres td, table#tres th{
+    border: 1px solid black;
+}
+table#tres td{
+    height: 50px;
+    width: 50px;
+    font-size: 12px;
+    text-align:left ;
+    vertical-align: top	;
+    text-indent: 2px;
+}
